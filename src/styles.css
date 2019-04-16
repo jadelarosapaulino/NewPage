@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+@media (min-width: 576px) {
+    body {
+        background: red;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background: blue;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background: green;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background: #08B;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
