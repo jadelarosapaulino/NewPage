@@ -5,33 +5,36 @@
 
 .home-details .featured {
     background: #F4F6F7;
-    height: 50px;
     margin: 0px;
     padding: 10px 5px;
     border-top: 1px #ccc solid;
 }
 
 .featured span {
-    background: #ABEBC6;
-    width: 40px;
-    height: 40px;
+    background: #fff;
+    width: 42px;
+    height: 42px;
     padding: 5px;
-    border: 1px #ccc solid;
     border-radius: 3px;
     margin: 0px 5px;
 }
 
 .featured span:hover {
-    background: #ccc;
-    width: 40px;
-    height: 40px;
-    padding: 5px;
-    border: 1px #ABEBC6 solid;
-    border-radius: 3px;
+    background: #5DADE2;
+    transition: background 1s ease-out;
 }
 
 .featured span img {
     margin-top: -5px;
     width: 25px;
     height: 25px;
+}
+
+.list-group .list-group-item {
+  padding: .2rem;
+}
+
+.imgSVG {
+  fill: #fff;
+  color: #58D68D;
 }

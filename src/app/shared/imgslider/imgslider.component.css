@@ -14,15 +14,18 @@
 }
 
 .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
     text-align: left;
     left: 0;
+    border-right: 2px #C00 solid;
     bottom: 40px;
     padding: 10px;
     background: #000;
     width: 75%;
     opacity: .8;
+    z-index: 900;
 }
 
-.carousel-inner .carousel-item .carousel-caption h5 {
+.carousel-inner .carousel-item .carousel-caption h5, button {
     z-index: 1000;
 }
