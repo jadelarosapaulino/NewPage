@@ -5,13 +5,15 @@ import { SitebarComponent } from './sitebar/sitebar.component';
 import { ImgsliderComponent } from './imgslider/imgslider.component';
 import { DetailsComponent } from './details/details.component';
 import { RouterModule } from '@angular/router';
+import { FormsearchComponent } from './formsearch/formsearch.component';
 
 @NgModule({
   declarations: [
     NavbarComponent,
     SitebarComponent,
     ImgsliderComponent,
-    DetailsComponent
+    DetailsComponent,
+    FormsearchComponent
   ],
   imports: [
     CommonModule,
@@ -21,7 +23,8 @@ import { RouterModule } from '@angular/router';
     NavbarComponent,
     SitebarComponent,
     ImgsliderComponent,
-    DetailsComponent
+    DetailsComponent,
+    FormsearchComponent
   ]
 })
 export class SharedModule { }

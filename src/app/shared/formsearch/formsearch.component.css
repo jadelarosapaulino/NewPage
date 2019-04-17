@@ -1,0 +1,47 @@
+.form-searh-element {
+    background: #F2F3F4;
+    border: 0px;
+    border-bottom: 1px #CCC solid;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.btn-collapse {
+    background: #FF5722;
+}
+
+
+/*.form-group {
+    margin-bottom: 0;
+}*/
+
+.input-group-text {
+    background-color: #4FC3F7;
+    border: 1px solid #4FC3F7;
+}
+
+.input-group-text img {
+    width: 20px;
+}
+
+.btn {
+    border-radius: 0em;
+    border: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.btn.focus,
+.btn:focus,
+.btn-info.focus,
+.btn-info:focus {
+    box-shadow: 0 0 0 0rem rgba(58, 176, 195, .5);
+    border: 0;
+}
+
+input#check:checked+label#labelSeach {
+    background: #FF5722;
+    transition: background .5sec ease-out
+}
