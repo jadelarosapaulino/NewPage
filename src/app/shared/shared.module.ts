@@ -6,6 +6,8 @@ import { ImgsliderComponent } from './imgslider/imgslider.component';
 import { DetailsComponent } from './details/details.component';
 import { RouterModule } from '@angular/router';
 import { FormsearchComponent } from './formsearch/formsearch.component';
+import { PremiunslideComponent } from './premiunslide/premiunslide.component';
+import { SwiperModule } from 'angular2-useful-swiper';
 
 @NgModule({
   declarations: [
@@ -13,18 +15,21 @@ import { FormsearchComponent } from './formsearch/formsearch.component';
     SitebarComponent,
     ImgsliderComponent,
     DetailsComponent,
-    FormsearchComponent
+    FormsearchComponent,
+    PremiunslideComponent
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    SwiperModule
   ],
   exports: [
     NavbarComponent,
     SitebarComponent,
     ImgsliderComponent,
     DetailsComponent,
-    FormsearchComponent
+    FormsearchComponent,
+    PremiunslideComponent
   ]
 })
 export class SharedModule { }

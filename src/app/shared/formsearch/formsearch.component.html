@@ -2,7 +2,7 @@
     <div class="col-sm-3 mx-0 px-0">
         <input type="checkbox" id="check" hidden>
 
-        <label for="check" class="btn btn-info btn-block" id="labelSeach" data-toggle="collapse" href="#form-search-front" role="button" aria-expanded="false" aria-controls="form-search-front">
+        <label for="check" class="btn btn-info btn-block my-0" id="labelSeach" data-toggle="collapse" href="#form-search-front" role="button" aria-expanded="false" aria-controls="form-search-front">
             <strong> Busqueda Avanzada</strong>
         </label>
     </div>
@@ -39,7 +39,7 @@
                 <form class="form-inline">
                     <div class="input-group mb-2 mr-sm-2">
                         <div class="input-group-prepend">
-                            <div class="input-group-text"><img src="../../../assets/icons/svg/bathroom.svg" alt=""></div>
+                            <div class="input-group-text">Ba&ntilde;os <img src="../../../assets/icons/svg/bathroom.svg" alt=""></div>
                         </div>
                         <select name="" class="form-control" id="">
                           <option *ngFor="let b of banos" value="{{ b }}">{{ b }}</option>
@@ -48,10 +48,30 @@
 
                     <div class="input-group mb-2 mr-sm-2">
                         <div class="input-group-prepend">
-                            <div class="input-group-text">@</div>
+                            <div class="input-group-text">Habitaciones <img src="../../../assets/icons/svg/sleeping_room.svg" alt=""></div>
                         </div>
-                        <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+                        <select name="" class="form-control" id="">
+                          <option *ngFor="let b of banos" value="{{ b }}">{{ b }}</option>
+                        </select>
                     </div>
+
+                    <div class="input-group mb-2 mr-sm-2">
+                      <div class="input-group-prepend">
+                          <div class="input-group-text">Garage <img src="../../../assets/icons/svg/garage.svg" alt=""></div>
+                      </div>
+                      <select name="" class="form-control" id="">
+                        <option *ngFor="let b of banos" value="{{ b }}">{{ b }}</option>
+                      </select>
+                  </div>
+
+                  <div class="input-group mb-2 mr-sm-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">Cocina <img src="../../../assets/icons/svg/diningroom.svg" alt=""></div>
+                    </div>
+                    <select name="" class="form-control" id="">
+                      <option *ngFor="let b of banos" value="{{ b }}">{{ b }}</option>
+                    </select>
+                </div>
                 </form>
             </div>
         </div>

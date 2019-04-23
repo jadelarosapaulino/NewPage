@@ -2,6 +2,17 @@
     background-color: #FF5722;
 }
 
+.navbar button {
+  background-color: #4FC3F7;
+  margin: 5px auto;
+  border: 0px #F2F3F2;
+  border-radius: 0px;
+}
+
+.navbar button span {
+  color: #F2F3F2;
+}
+
 .nav-brand {
     background-color: #4FC3F7;
     padding: 5px;

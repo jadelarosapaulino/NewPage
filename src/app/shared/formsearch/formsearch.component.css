@@ -18,6 +18,9 @@
 .input-group-text {
     background-color: #4FC3F7;
     border: 1px solid #4FC3F7;
+    border-radius: 0px;
+    color: #F2F3F4;
+    font-weight: bold;
 }
 
 .input-group-text img {
